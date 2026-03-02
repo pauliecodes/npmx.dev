@@ -62,7 +62,7 @@ function openAuthModal() {
       :aria-expanded="isOpen"
       aria-haspopup="true"
       @click="isOpen = !isOpen"
-      class="border-none"
+      class="border-none cursor-pointer"
     >
       <!-- Stacked avatars when connected -->
       <span
